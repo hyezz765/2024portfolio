@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
 }
@@ -9,18 +10,6 @@ body {
 
 .navigation {
   margin-inline: 30px auto;
-}
-
-.navigation-left {
-  cursor: pointer;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-  padding-inline: 1rem;
-  padding-block: 0.5rem 0.375rem;
-  border-radius: 999px;
-  border: solid 0.0625rem #000;
-  margin-top: 1.25rem;
-  font-size: 2.25rem;
 }
 
 .stroke {
@@ -222,4 +211,21 @@ footer .footer-section .footer-bottom {
 }
 footer .footer-section .footer-bottom p {
   margin: 5px 0;
+}
+
+.navigation-left div {
+  cursor: pointer;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding-inline: 1rem;
+  padding-block: 0.5rem 0.375rem;
+  border-radius: 999px;
+  border: solid 0.0625rem #000;
+  margin-top: 1.25rem;
+  font-size: 2.25rem;
+  transition: background-color 0.3s ease; /* 호버 효과의 부드러운 전환을 위해 transition 속성 추가 */
+}
+
+.navigation-left div:hover {
+  background-color: #ffff00; /* 호버할 때 배경색을 노란색(#ffff00)으로 변경 */
 }
