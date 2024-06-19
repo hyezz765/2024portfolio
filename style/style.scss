@@ -166,6 +166,15 @@ h1 {
   max-width: 75rem;
 }
 
+.project4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, auto);
+  background-color: #ccc;
+  margin-inline: auto;
+  max-width: 75rem;
+}
+
 .workimage {
   margin-inline: auto;
   justify-content: center;
